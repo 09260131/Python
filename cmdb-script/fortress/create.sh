@@ -17,4 +17,4 @@ else
 	echo "no username"
 fi
 echo $google_url
-#echo $google_url > /bdata/tmp/$username
+# echo $google_url > /bdata/tmp/$username

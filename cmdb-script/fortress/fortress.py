@@ -199,10 +199,9 @@ if __name__ == "__main__":
             if content == "1":
                 count = 0
                 for h in all_host_list:
-                    if h['ip']:
-                        print "%-6s\t%-15s\t%-8s\t%-20s\t%-45s ===> %-6s" % (
-                            "[" + echo_ret("a" + str(count)) + "] ", h['ip'], h['env'],
-                            h['room_name'], h['hostname'], h['role'])
+                    print "%-6s\t%-15s\t%-8s\t%-20s\t%-45s ===> %-6s" % (
+                        "[" + echo_ret("a" + str(count)) + "] ", h['ip'], h['env'],
+                        h['room_name'], h['hostname'], h['role'])
                     count += 1
             elif content in ('dev', 'test', 'uat', 'stg', 'prod'):
                 count = 0
@@ -285,4 +284,3 @@ if __name__ == "__main__":
     except Exception, e:
         print "\next the session"
         print e
-
