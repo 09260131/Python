@@ -19,6 +19,7 @@ class Task():
     def addTask(self, **kwargs):
         try:
             q = Q(self.queue_key)
+            kwargs['task'] = str(self.__class__)
             q.push(json.dumps({'kwargs': kwargs}))
         except Exception, ex:
             print('addTask %s' % str(ex))
