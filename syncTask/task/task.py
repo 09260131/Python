@@ -20,7 +20,7 @@ class Task():
         try:
             q = Q(self.queue_key)
             kwargs['task'] = str(self.__class__)
-            q.push(json.dumps({'kwargs': kwargs}))
+            q.push(json.dumps(kwargs))
         except Exception, ex:
             print('addTask %s' % str(ex))
 
@@ -38,7 +38,7 @@ class testTask(Task):
 
     def excute(self, **kwargs):
         try:
-            time.sleep(1)
+            time.sleep(10)
             print(kwargs)
             return True, 'down'
         except Exception, ex:
@@ -46,9 +46,6 @@ class testTask(Task):
 
 if __name__ == '__main__':
     param_dict = {
-        'params': {
-            'name': 'shihao',
-            'wife': 'hhh'
-        }
+        'params': '{"name": "shihao", "wife": "hhh"}'
     }
     testTask().addTask(**param_dict)

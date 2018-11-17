@@ -10,7 +10,6 @@ import json
 import new
 from multiprocessing import Process
 from syncTask.redis.mq import Q
-from syncTask.task.task import testTask
 
 
 def run_task_job(queue_key):
@@ -27,13 +26,17 @@ def run_task_job(queue_key):
             reload(module)
             TaskClass = getattr(module, task_list[-1])
             obj = new.instance(TaskClass)
-            obj.run(task_data['id'], **json.loads(task_data['params']))
+            obj.run(**json.loads(task_data['params']))
         except Exception, ex:
             print str(ex)
 
 if __name__ == "__main__":
 
-    p = Process(target=run_task_job, args=('cmdb_task', ))
-    p.start()
-    p.join()
+    proc_record = []
+    for i in range(10):
+        p = Process(target=run_task_job, args=('cmdb_task', ))
+        p.start()
+        proc_record.append(p)
+    for proc in proc_record:
+        p.join()
 
