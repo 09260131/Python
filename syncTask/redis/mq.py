@@ -4,7 +4,7 @@ import redis
 
 ####################################################################
 
-REDIS_HOST = '127.0.0.1'
+REDIS_HOST = '192.168.0.104'
 
 ####################################################################
 
@@ -15,6 +15,7 @@ class Q():
 
     def push(self, msg, key=''):
         if not key:
+            print(key)
             key = self.key
         self.__conn.lpush(key, msg)
 

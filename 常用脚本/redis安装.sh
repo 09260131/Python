@@ -1,6 +1,7 @@
 wget http://download.redis.io/releases/redis-2.8.3.tar.gz
 tar xzf redis-2.8.3.tar.gz
-cd redis-2.8.3
+ln -s redis-2.8.3 redis
+cd redis
 make
 cd src
 make install
