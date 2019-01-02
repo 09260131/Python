@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dc4ebcf-b9a1-49d2-ac41-62d8ef1797b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test1/test2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1/test2/color.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1/threading/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1/threading/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsgiFrame/analyzeUrl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsgiFrame/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsgiFrame/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsgiFrame/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/wsgiFrame/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsgiFrame/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/wsgiFrame/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +14,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python$service.coverage" NAME="service Coverage Results" MODIFIED="1544540320430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wsgiFrame" />
+    <SUITE FILE_PATH="coverage/Python$service.coverage" NAME="service Coverage Results" MODIFIED="1544946621788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wsgiFrame" />
     <SUITE FILE_PATH="coverage/Python$haixie.coverage" NAME="haixie Coverage Results" MODIFIED="1543829683552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$begin.coverage" NAME="begin Coverage Results" MODIFIED="1543840070324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider爬虫" />
-    <SUITE FILE_PATH="coverage/Python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1544714063033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wsgiFrame" />
+    <SUITE FILE_PATH="coverage/Python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1544929374653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wsgiFrame" />
     <SUITE FILE_PATH="coverage/Python$1__.coverage" NAME="1. 单链表 Coverage Results" MODIFIED="1540085842221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataStructure" />
     <SUITE FILE_PATH="coverage/Python$task.coverage" NAME="task Coverage Results" MODIFIED="1542361050865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/syncTask/task" />
     <SUITE FILE_PATH="coverage/Python$begin__1_.coverage" NAME="begin (1) Coverage Results" MODIFIED="1543840363796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
@@ -32,7 +29,7 @@
     <SUITE FILE_PATH="coverage/Python$simple_server.coverage" NAME="simple_server Coverage Results" MODIFIED="1543763508864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myWsgiFrame" />
     <SUITE FILE_PATH="coverage/Python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1544782452017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1/threading" />
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1543725436411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myWsgiFrame" />
-    <SUITE FILE_PATH="coverage/Python$analyzeUrl.coverage" NAME="analyzeUrl Coverage Results" MODIFIED="1544714432658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wsgiFrame" />
+    <SUITE FILE_PATH="coverage/Python$analyzeUrl.coverage" NAME="analyzeUrl Coverage Results" MODIFIED="1544859900619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wsgiFrame" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -52,22 +49,23 @@
     <session id="-110858342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="11" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.2" value="8" />
           <entry key="project.open.time.3" value="6" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="93" />
+          <entry key="html" value="1" />
+          <entry key="py" value="98" />
           <entry key="sh" value="10" />
           <entry key="txt" value="3" />
           <entry key="远程连接 redis 防火墙设置" value="1" />
@@ -75,14 +73,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="93" />
+          <entry key="Python" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="py" value="11528" />
+          <entry key="py" value="14254" />
           <entry key="sh" value="90" />
           <entry key="txt" value="96" />
         </counts>
@@ -90,26 +89,30 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="193" />
-          <entry key="Python" value="11528" />
+          <entry key="Python" value="14254" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgiFrame/service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="657">
+              <caret line="201" column="48" selection-start-line="201" selection-start-column="48" selection-end-line="201" selection-end-column="48" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
-                <marker date="1544540304129" expanded="true" signature="139:1135" ph="..." />
-                <marker date="1544540304129" expanded="true" signature="1153:1154" ph="..." />
-                <marker date="1544540304129" expanded="true" signature="1153:1159" ph="..." />
-                <marker date="1544540304129" expanded="true" signature="1266:1272" ph="..." />
-                <marker date="1544540304129" expanded="true" signature="1812:1817" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgiFrame/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2812">
+              <caret line="148" column="40" selection-end-line="149" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -117,13 +120,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgiFrame/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="988">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
               <folding>
-                <marker date="1544714062996" expanded="true" signature="88:89" ph="..." />
-                <marker date="1544714062996" expanded="true" signature="88:94" ph="..." />
-                <marker date="1544714062996" expanded="true" signature="116:125" ph="..." />
-                <marker date="1544714062996" expanded="true" signature="224:265" ph="..." />
+                <marker date="1544934847645" expanded="true" signature="88:89" ph="..." />
+                <marker date="1544934847645" expanded="true" signature="88:94" ph="..." />
+                <marker date="1544934847645" expanded="true" signature="116:125" ph="..." />
+                <marker date="1544934847645" expanded="true" signature="184:193" ph="..." />
+                <marker date="1544934847645" expanded="true" signature="353:359" ph="..." />
+                <marker date="1544934847645" expanded="true" signature="630:991" ph="..." />
               </folding>
             </state>
           </provider>
@@ -132,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgiFrame/analyzeUrl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="42" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="45" />
               <folding>
                 <marker date="1544714432642" expanded="true" signature="479:480" ph="..." />
                 <marker date="1544714432642" expanded="true" signature="479:485" ph="..." />
@@ -143,21 +148,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/test2/color.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding>
-                <element signature="e#24#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test1/threading/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="627">
               <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
@@ -210,6 +203,9 @@
       <find>url</find>
       <find>urlparse</find>
       <find>register</find>
+      <find>pre_interceptor</find>
+      <find>ctx</find>
+      <find>register_preinterceptor</find>
     </findStrings>
     <replaceStrings>
       <replace>route</replace>
@@ -254,12 +250,12 @@
         <option value="$PROJECT_DIR$/test1/begin.py" />
         <option value="$PROJECT_DIR$/haixie.py" />
         <option value="$PROJECT_DIR$/test1/test1/spiders/spider.py" />
-        <option value="$PROJECT_DIR$/wsgiFrame/service.py" />
         <option value="$PROJECT_DIR$/wsgiFrame/analyze.py" />
-        <option value="$PROJECT_DIR$/wsgiFrame/test.py" />
         <option value="$PROJECT_DIR$/wsgiFrame/analyzeUrl.py" />
         <option value="$PROJECT_DIR$/test1/test2/color.py" />
         <option value="$PROJECT_DIR$/test1/threading/test1.py" />
+        <option value="$PROJECT_DIR$/wsgiFrame/test.py" />
+        <option value="$PROJECT_DIR$/wsgiFrame/service.py" />
       </list>
     </option>
   </component>
@@ -270,7 +266,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -290,13 +286,7 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-              <item name="threading" type="462c0819:PsiDirectoryNode" />
+              <item name="wsgiFrame" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,15 +302,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\python\Python\wsgiFrame" />
+      <recent name="D:\project\python\Python\常用脚本" />
+      <recent name="D:\project\python\Python" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\python\Python\spider爬虫" />
       <recent name="D:\project\python\Python\s4hweb" />
       <recent name="D:\project\python\Python\syncTask\task" />
       <recent name="D:\project\python\Python\syncTask" />
-      <recent name="D:\project\python\Python" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\python\Python\常用脚本" />
       <recent name="D:\project\python\Python" />
     </key>
   </component>
@@ -336,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test1">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="analyzeUrl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -479,10 +470,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.analyzeUrl" />
-        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.service" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.analyzeUrl" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.haixie" />
       </list>
     </recent_temporary>
@@ -617,19 +608,26 @@
       <option name="project" value="LOCAL" />
       <updated>1544540130170</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary=".">
+      <created>1544858212317</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1544858212318</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="2420" height="1320" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09221748" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07832345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30944625" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41910967" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30944625" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3713355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -638,7 +636,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.24212812" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.24212812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -707,20 +705,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/常用脚本/远程连接 redis 防火墙设置.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用脚本/nginx安装.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/常用脚本/pip安装.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -917,38 +901,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test1/test2/color.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/python/Lib/site-packages/webob/dec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wsgiFrame/service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="657">
+          <caret line="201" column="48" selection-start-line="201" selection-start-column="48" selection-end-line="201" selection-end-column="48" />
           <folding>
             <element signature="e#23#32#0" expanded="true" />
-            <marker date="1544540304129" expanded="true" signature="139:1135" ph="..." />
-            <marker date="1544540304129" expanded="true" signature="1153:1154" ph="..." />
-            <marker date="1544540304129" expanded="true" signature="1153:1159" ph="..." />
-            <marker date="1544540304129" expanded="true" signature="1266:1272" ph="..." />
-            <marker date="1544540304129" expanded="true" signature="1812:1817" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgiFrame/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2812">
+          <caret line="148" column="40" selection-end-line="149" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgiFrame/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="988">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
           <folding>
-            <marker date="1544714062996" expanded="true" signature="88:89" ph="..." />
-            <marker date="1544714062996" expanded="true" signature="88:94" ph="..." />
-            <marker date="1544714062996" expanded="true" signature="116:125" ph="..." />
-            <marker date="1544714062996" expanded="true" signature="224:265" ph="..." />
+            <marker date="1544934847645" expanded="true" signature="88:89" ph="..." />
+            <marker date="1544934847645" expanded="true" signature="88:94" ph="..." />
+            <marker date="1544934847645" expanded="true" signature="116:125" ph="..." />
+            <marker date="1544934847645" expanded="true" signature="184:193" ph="..." />
+            <marker date="1544934847645" expanded="true" signature="353:359" ph="..." />
+            <marker date="1544934847645" expanded="true" signature="630:991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgiFrame/analyzeUrl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="45" />
           <folding>
             <marker date="1544714432642" expanded="true" signature="479:480" ph="..." />
             <marker date="1544714432642" expanded="true" signature="479:485" ph="..." />
@@ -956,12 +958,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/test2/color.py">
+    <entry file="file://$PROJECT_DIR$/test1/threading/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="627">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
           <folding>
-            <element signature="e#24#45#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,16 +987,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/s4hweb/s4hweb/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1/threading/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
   </component>
 </project>

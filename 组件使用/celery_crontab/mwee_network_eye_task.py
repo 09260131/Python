@@ -28,8 +28,8 @@ STATSD_GAUGE = STATSD_CLIENT.get_client(class_=statsd.Gauge)
 
 class AliyunBase():
 
-    key = 'LTAIcRyXXCfUjReo'
-    secret = 'bqZB2PhKX5D9UTDAr1DEFyNhYe04qA'
+    key = ''
+    secret = ''
     regionId = ''
 
     def __init__(self, regionId='cn-shanghai'):
